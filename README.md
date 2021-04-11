@@ -10,6 +10,6 @@ Membros:
 
 ## build com docker
 
-    docker build -t sgm/auth -f .\Dockerfile .
+    docker build -t sgm/service-discovery -f .\Dockerfile .
 
-    docker run -it -p 8761:8761 sgm/auth
+    docker run -d -p 8761:8761 sgm/service-discovery
